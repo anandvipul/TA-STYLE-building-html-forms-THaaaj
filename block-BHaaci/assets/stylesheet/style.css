@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}
+
+.color-white {
+    color: white;
+}
+
+strong {
+    font-weight: 500;
+}
+
+
+
+body {
+    background-color: rgba(255,0,0,0.5);
+    background-image: url("../../assets/media/bg-intro-desktop.png");
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.blue-bg {
+    background-color: blue;
+}
+
+.green-bg {
+    background-color: green;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left {
+    margin-right: 40px;
+}
+
+.left > h1 {
+    padding-bottom: 40px;
+}
+
+.form-element {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px soild grey;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+.color-red {
+    color: red;
+}
+
+.main-form {
+    background-color: white;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
