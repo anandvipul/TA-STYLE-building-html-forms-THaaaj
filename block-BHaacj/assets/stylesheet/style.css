@@ -175,3 +175,8 @@ nav ul li {
     border: 1px solid rgba(216, 215, 215, 0.5);
     margin-bottom: 30px;
 }
+
+
+.show-more-places-btn {
+    width: 20%;
+}

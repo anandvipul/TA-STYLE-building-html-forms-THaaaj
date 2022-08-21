@@ -138,3 +138,17 @@ figure {
 .hotel-end {
   width: 20vw;
 }
+
+
+.gmap iframe{
+  width: 100%;
+  height: 40vh;
+}
+
+footer {
+  height: 10vh;
+  background-color: var(--green-front);
+  color: white;
+  text-align: center;
+  line-height: 10vh;
+}
